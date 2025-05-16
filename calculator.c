@@ -2,12 +2,13 @@
 #include <stdlib.h>
 
 int main() {
-    int num1;
-    int num2;
+    double num1;
+    double num2;
+    char op;
 
 
     //fgets works with strings ONLY
-    printf("Enter first number: \n");
+    printf("Enter a number: \n");
     scanf("%d", &num1);
     printf("Enter second number: \n");
 
