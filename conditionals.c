@@ -15,6 +15,14 @@ int max(int num1, int num2) {
 
 int main() {
 
-    printf("The max: %d", max(8, 10));
+    //printf("The max: %d", max(8, 10));
+
+    //WHILE LOOPS
+    int index = 1;
+
+    while (index <= 5) {
+        printf("%d\n", index);
+        index ++;
+    }
     return 0;
 }
