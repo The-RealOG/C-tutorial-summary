@@ -9,5 +9,10 @@ int main() {
                         {5, 6},
     };
 
+    //altrenatively, we could initialize the 2d array then manually fill out:
+    int nums1[3][2];
+    nums1[0][1] = 7;
+
+    printf("%d", nums[0][0]);
     return 0;
 }
